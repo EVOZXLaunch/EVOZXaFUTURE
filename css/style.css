@@ -1,0 +1,6 @@
+body { background: #0A0A0A; color: #D4AF37; font-family: -apple-system; }
+.card { border: 1px solid #D4AF37; border-radius: 10px; padding: 20px; max-width: 400px; margin: auto; }
+input { background: #000; border: 1px solid #333; color: #fff; width: 100%; padding: 10px; margin: 10px 0; }
+button { width: 100%; padding: 15px; background: #D4AF37; color: #000; font-weight: bold; border: none; cursor: pointer; }
+.accordion { border: 1px solid #333; padding: 10px; margin-bottom: 10px; }
+
