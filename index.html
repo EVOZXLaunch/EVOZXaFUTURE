@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVOZXaFUTURE | Token Factory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <header><h1>EVOZX<span style="color: #D4AF37;">aFUTURE</span></h1></header>
+        <div class="card">
+            <input type="text" id="name" placeholder="Token Name">
+            <input type="text" id="symbol" placeholder="Token Symbol">
+            <input type="number" id="supply" placeholder="Initial Supply">
+
+            <details class="accordion">
+                <summary>Advanced Features</summary>
+                <div class="list">
+                    <label><input type="checkbox" class="feat" value="mintable"> Mintable</label>
+                    <label><input type="checkbox" class="feat" value="burnable"> Burnable</label>
+                </div>
+            </details>
+
+            <button id="deployBtn">DEPLOY TOKEN</button>
+            <div id="txStatus"></div>
+        </div>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
+
